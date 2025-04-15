@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1.5rem;
+  flex-direction: column;
+}
+
+.main > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 638px;
+  width: 100%;
+  gap: 4rem;
+}

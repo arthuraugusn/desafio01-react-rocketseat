@@ -1,0 +1,39 @@
+.div {
+  gap: 0.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--purple-dark);
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: var(--blue-dark);
+  gap: 0.5rem;
+  color: var(--gray-100);
+  border: none;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--blue);
+  transition: 0.3s;
+  cursor: pointer;
+}
